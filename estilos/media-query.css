@@ -26,7 +26,8 @@ Grandes Telas: acima de 1200px
         width: 70%;
     }
 }
-    
+
+/* Desktop */
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(to top, #31312F, #C5C5B9, #E5E1D8);
@@ -35,12 +36,19 @@ Grandes Telas: acima de 1200px
         width: 990px;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }   
+    div#formulario > h1{
+        font-size: 2em;
+    }
+    
+    div#formulario > p{
+        font-size: 1em;
+    }
 }
