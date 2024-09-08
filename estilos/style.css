@@ -38,8 +38,8 @@ section#login{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
 
-    transition: width 0.3s, height 0.3s;
     transform: translate(-50%, -50%);
+    transition: width 0.3s, height 0.3s;
 }
 
 section#login > div#imagem{
@@ -63,7 +63,6 @@ div#formulario > h1{
 
 div#formulario > p{
     font-size: 0.8em;
-    margin-bottom: 15px;
 }
 
 form > div.campo{
@@ -96,6 +95,7 @@ div.campo > input{
 div.campo > input:focus-within{
     background-color: white;
 }
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;

@@ -27,6 +27,11 @@ Grandes Telas: acima de 1200px
         margin-top: 80px;
     }
 
+    div#formulario > p{
+        font-size: 0.8em;
+        margin-bottom: 15px;
+    }
+
 }
 
 /* Desktop */
@@ -53,5 +58,6 @@ Grandes Telas: acima de 1200px
     
     div#formulario > p{
         font-size: 1em;
+        margin-bottom: 15px;
     }
 }
