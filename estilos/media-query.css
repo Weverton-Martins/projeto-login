@@ -24,7 +24,9 @@ Grandes Telas: acima de 1200px
     section#login > div#formulario{
         float: right;
         width: 70%;
+        margin-top: 80px;
     }
+
 }
 
 /* Desktop */
@@ -43,6 +45,7 @@ Grandes Telas: acima de 1200px
     section#login > div#formulario{
         float: left;
         width: 50%;
+        margin-top: 80px;
     }   
     div#formulario > h1{
         font-size: 2em;
